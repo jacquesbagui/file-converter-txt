@@ -33,6 +33,6 @@
     "mocha": "^9.1.3"
   },
   "bin": {
-    "file-converter": "cli.js"
+    "file-converter-txt": "cli.js"
   }
 }

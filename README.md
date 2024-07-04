@@ -1,11 +1,11 @@
-# File Converter
+# File Converter txt
 
 A robust Node.js library to convert PDF, Word, and text files to .txt format.
 
 ## Installation
 
 ```bash
-npm install @bagsonlab/file-converter
+npm install file-converter-txt
 ```
 
 # Usage
@@ -15,7 +15,7 @@ npm install @bagsonlab/file-converter
 You can use the library in your Node.js projects as follows:
 
 ```bash
-import convertToTxt from '@bagsonlab/file-converter';
+import convertToTxt from 'file-converter-txt';
 
 (async () => {
   try {
@@ -32,7 +32,7 @@ import convertToTxt from '@bagsonlab/file-converter';
 You can also use the library from the command line.
 
 ```bash
-npx file-converter path/to/your/file.pdf pdf
+npx file-converter-txt path/to/your/file.pdf pdf
 ```
 
 # Supported File Types
@@ -50,7 +50,7 @@ The library provides detailed error messages for unsupported file types and file
 ### Example Error Handling
 
 ```bash
-import convertToTxt from '@bagsonlab/file-converter';
+import convertToTxt from 'file-converter-txt';
 
 (async () => {
   try {
