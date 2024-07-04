@@ -1,4 +1,4 @@
-# File Converter txt
+# File Converter To txt
 
 A robust Node.js library to convert PDF, Word, and text files to .txt format.
 
